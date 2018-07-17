@@ -3,12 +3,6 @@ Sub HTTPDownload( myURL, myPath )
 '
 ' myURL must always end with a file name
 ' myPath may be a directory or a file name; in either case the directory must exist
-'
-' Written by Rob van der Woude
-' http://www.robvanderwoude.com
-'
-' Based on a script found on the Thai Visa forum
-' http://www.thaivisa.com/forum/index.php?showtopic=21832
 
     ' Standard housekeeping
     Dim i, objFile, objFSO, objHTTP, strFile, strMsg
